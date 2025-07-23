@@ -4,7 +4,7 @@ pipeline {
             label 'jenkins-agent-goes-here'
             }
       }
-    trgiger {
+    trgigers {
         pollSCM('*/5 * * * *')
     }
     stages {
